@@ -1,0 +1,3 @@
+# No third-party dependencies -- the app only uses the Python standard library
+# (json, re, difflib, datetime, logging, urllib) including for the Groq API
+# call itself. Kept for Docker/CI tooling that expects this file.
